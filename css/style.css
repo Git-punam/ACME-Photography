@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    height:400vh;
+    width:60vw;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    box-shadow: 0px 5px 20px #888888;
+}
+
+.banner{
+    height: 15%; width:100%;
+}
+
+.logo{
+    height: 100%; width: 50%; float:left;
+    padding-top: 10%;
+    text-align: center;
+    align-items: center;
+}
+
+.vwButton{
+    background: azure;
+    border: 0.5px solid grey;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    transition-duration: 0.4s;
+
+}
+.vwButton:hover{
+    background-color: #888888;
+}
+
+.camera{
+    height: 100%;width: 50%; display:inline; float:left;
+}
+
+.ourWork{
+    height: 5%; width: 100%;
+    background-color: #1f2221;
+    color: aliceblue;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+
+}
+.photoNum{
+    height: 20%; width:100%;
+}
+img{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+}
+.textAfterPhoto{
+    height: 5%; width:100%;
+    background-color: white;
+    box-shadow: 0px 5px 20px #888888;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    
+}
+
+.footer{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
